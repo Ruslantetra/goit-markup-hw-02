@@ -67,6 +67,9 @@ ul {
     text-decoration: none;
     margin-right: 50px;   
 }
+.accent:hover {
+    color:blue;
+}
 
 .primary {
     color: var(--primary-color);
