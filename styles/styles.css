@@ -12,6 +12,12 @@
     --text-size: 14px;
 }
 
+body {
+    font-family: var(--main-font);
+    font-size: var(--text-size);
+    color: var(--secondary-color);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -47,6 +53,7 @@ ul {
     font-family: var(--secondary-font);
     font-weight:700;
     font-size: 26px;
+    line-height: 1.19;
     text-decoration: none;
     margin-right: 93px;  
 }
@@ -54,12 +61,12 @@ ul {
     color: #000000;
 }
 .list {
-    font-family: var(--main-font);
+    /* font-family: var(--main-font); */
     font-weight: 500;
-    font-size: var(--text-size);
+    line-height: 1.14;
+    /* font-size: var(--text-size); */
     display: flex;
-    align-items: center; 
-    
+    align-items: center;     
 }
 
 .accent {
@@ -67,19 +74,33 @@ ul {
     text-decoration: none;
     margin-right: 50px;   
 }
-.accent:hover {
+
+.accent:hover,
+.accent:focus {
     color:blue;
 }
-
+   
 .primary {
     color: var(--primary-color);
     text-decoration: none;
     margin-right: 50px;  
 }
 
+.primary:hover,
+.primary:focus {
+    color: #2196F3;
+}
+
 .secondary {
     color: var(--secondary-color);
-    text-decoration: none;
+    text-decoration: none;    
+}
+.secondary.mailto {
+    margin-right: 50px;
+}
+.secondary:hover,
+.secondary:focus {
+    color:#2196F3;      
 }
 
 /* main */
@@ -92,11 +113,12 @@ ul {
 
 .business {
     margin-top: 0;
-    font-family: var(--main-font);
+    /* font-family: var(--main-font); */
     font-weight: 900;
     color: var(--common-white);
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
+    text-align: center;
 }
 
 .container-business {
@@ -110,19 +132,18 @@ ul {
     border-radius: 4px;
     padding: 10px 32px 10px 32px;
     outline: none;
-    font-family: var(--main-font);
+    /* font-family: var(--main-font); */
     font-weight: 700;
     font-size: 16px;
     color: var(--common-white);
-    line-height: 30px;
+    line-height: 1.87;
+    cursor: pointer;
 }
 
-.btn:hover {
-    background-color: blue;
-}
+/* .btn:hover,
 .btn:focus {
-    background-color: aqua;
-}
+    background-color: blue;
+} */
 
 .container-btn {
     width: 200px;
@@ -148,34 +169,38 @@ ul {
 }
 .spisok-primary {
     color: var(--primary-color);
-    font-family: var(--main-font);
+    /* font-family: var(--main-font); */
     font-weight: 700;
     font-size: var(--text-size);
-    line-height: 16px;
+    line-height: 1.14;
     margin-bottom: 10px;
 }
 .spisok-secondary {
-    color: var(--secondary-color);
-    font-family: var(--main-font);
+    /* color: var(--secondary-color); */
+    /* font-family: var(--main-font); */
     font-weight: 400;
-    font-size: var(--text-size);
-    line-height: 24px;
+    /* font-size: var(--text-size); */
+    line-height: 1.71;
     width: 270px;
 }
+
 /* section 3 */
+
 .sectionthree {
     width: 1600px;
 }
+
 .container-practice {
     width: 376px;
     margin: 0 auto;
 }
+
 .practice {
     color: var(--primary-color);
-    font-family: var(--main-font);
+    /* font-family: var(--main-font); */
     font-weight: 700;
     font-size: var(--title-size);
-    line-height: 42px;
+    line-height: 1.16;
     margin-bottom: 50px;
 }
 
@@ -193,57 +218,61 @@ ul {
 } */
 
 /* section 4 */
+
 .sectionfour {
     width: 1600px;
     background-color: #F5F4FA;
 }
+
 .containerfour-practice {
     width: 264px;
     margin: 0 auto;
     padding-top: 94px;
     padding-bottom: 50px;
 }
+
 .img-sectionfour {
     width: 1170px;
     margin: 0 auto;
     padding-bottom: 94px;
 }
+
 .images-sectionfour {
     width: 270px;
     height: 260px;
 }
+
 .primary-sectionfour {
     color: var(--primary-color);
-    font-family: var(--main-font);
+    /* font-family: var(--main-font); */
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
-    margin-bottom: 10px;
-    
-    
+    line-height: 1.18;
+    margin-bottom: 10px;   
 }
+
 .secondary-sectionfour {
-    color: var(--secondary-color);
-    font-family: var(--main-font);
+    /* color: var(--secondary-color); */
+    /* font-family: var(--main-font); */
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;    
+    line-height: 1.18;    
 }
 
 /* ольга репина */
 .secondary-sectionfour-developer {
-    color: var(--secondary-color);
-    font-family: var(--main-font);
+    /* color: var(--secondary-color); */
+    /* font-family: var(--main-font); */
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
-    width: 147px;
-   
+    line-height: 1.18;
+    width: 147px;   
 }   
 
 .ul-sectionfour {
     display: flex;
 }
+
 .li-sectionfour {
     margin-right: 30px;
     background-color: var(--common-white);
@@ -251,77 +280,116 @@ ul {
     border-width: 1px 1px 3px 1px;
     border-radius: 3px;   
 }
+
 .h {
     padding: 30px 60px 0 60px;
 }
+
 .hh {
     padding: 30px 80px 0 80px;
 }
+
 .hhh {
     padding: 30px 66px 0 66px;
 }
+
 .hhhh {
     padding: 30px 68px 0 68px;
 }
+
 .p {
    padding: 0 70px 30px 70px;
 }
+
 .pp {
     padding: 0 61px 30px 61px;
 }
+
 .ppp {
     padding: 0 97px 30px 97px;
 }
+
 .pppp {
     padding: 0 91px 30px 91px;
 }
+
 /* .li-sectionfour:last-child {
     margin-right: 0;
 } */
+
 .footer {
     background-color: var(--header-footer-color);
     width: 1600px;
 }
+
 .container-footer {
     width: 145px;
     padding:60px 1240px 20px 215px ;
 }
+
 .logo-footer {
     text-decoration: none;
     color: var(--accent-color);
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;   
+    line-height: 1.19;   
 }
+
 .logo-footer-dot {
     color: var(--common-white);
 }
+
 .address {
     /* width: 243px; */
     padding: 0 1154px 60px 180px;
+}
 
+.address-address {
+    font-style: normal;
 }
+
 .kiev {
+    text-decoration: none;
     color: var(--common-white);
-    font-family: var(--main-font);
+    /* font-family: var(--main-font); */
     font-weight: 400;
-    font-size: var(--text-size);
-    line-height: 24px;
+    /* font-size: var(--text-size); */
+    line-height: 1.71;
     margin-bottom: 9px; 
 }
+
 .mail {
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
-    font-family: var(--main-font);
+    /* font-family: var(--main-font); */
     font-weight: 400;
-    font-size: var(--text-size);
-    line-height: 24px;
+    /* font-size: var(--text-size); */
+    line-height: 1.71;
     margin-bottom: 9px; 
 }
+
 .tel {
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
     font-family: var(--main-font);
     font-weight: 400;
-    font-size: var(--text-size);
-    line-height: 24px; 
+    /* font-size: var(--text-size); */
+    line-height: 1.71; 
 }
+
+.mail:hover,
+.mail:focus {
+    color:#2196F3;
+}
+
+.kiev:hover,
+.kiev:focus {
+    color:#2196F3;
+}
+
+.tel:hover,
+.tel:focus {
+    color:#2196F3;
+}
+
