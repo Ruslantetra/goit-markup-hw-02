@@ -5,6 +5,11 @@
     --white-color: #FFFFFF;
     --header-footer-color: #2F303A;
 
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font:  'Raleway', sans-serif;
+
+    --title-size: 36px;
+    --text-size: 14px;
 }
 
 ul {
@@ -14,20 +19,30 @@ ul {
 
 .page {
     color: var(--secondary-color);
+    font-family: var(--main-font);
+    font-size: var(--text-size);
 }
 
 /* header */
 
 .logo {
     color: #000000;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
 }
 .logo-dot {
     color: var(--accent-color);
 }
 
-
 .studio {
     color: var(--accent-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
 }
 .studio:hover,
 .studio:focus {
@@ -36,14 +51,22 @@ ul {
 
 .portfolio-contacts {
     color: var(--primary-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
 }
 .portfolio-contacts:hover,
 .portfolio-contacts:focus {
-    color: blue;
+    color:#2196F3;
 }
 
 .mail {
     color: var(--accent-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
 }
 .mail:hover,
 .mail:focus {
@@ -52,10 +75,14 @@ ul {
 
 .tel {
     color: var(--secondary-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
 }
 .tel:hover,
 .tel:focus {
-    color: blue;
+    color:#2196F3;
 }
 
 /* main */
@@ -65,26 +92,65 @@ ul {
 }
 .section-one-title {
     color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
 }
 .button {
     background-color: var(--accent-color);
     border: none;
     border-radius: 4px;
     color: var(--white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
 }
 /* section 2 */
  .title {
     color: var(--primary-color);
 }
+.title-section-two {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.text {
+    font-weight: 400;
+    line-height: 1.71;
+}
 /* section 3 */
-
+.title-section-three {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
 /* section 4 */
 .section-four {
     background-color: #F5F4FA;
 }
+.title-section-four {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
 .li-section-four {
     background-color: var(--white-color);
     width: 270px;
+}
+.title-four {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+.text-section-four {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
 }
 /* footer */
 .footer {
@@ -92,15 +158,34 @@ ul {
 }
 .logo-footer {
     color: var(--accent-color);
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
 }
 .logo-dot-footer {
     color: var(--white-color);
 }
 .maps {
-   color: var(--white-color); 
+   color: var(--white-color);
+   font-weight: 400;
+    line-height: 1.71;
+    text-decoration: none; 
+}
+.maps:hover,
+.maps:focus {
+    color: #2196F3;
 }
 .mailto-tel {
     color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    line-height: 1.71;
+    text-decoration: none;
+}
+.mailto-tel:hover,
+.mailto-tel:focus {
+    color: #2196F3;
 }
 
 
