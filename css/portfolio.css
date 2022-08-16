@@ -24,6 +24,10 @@ ul {
 .logo {
     color: var(--accent-color);
     text-decoration: none;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 .logo-dot {
     color: #000000;
@@ -31,6 +35,9 @@ ul {
 .studio {
     color: var(--primary-color);
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 .studio:hover,
 .studio:focus {
@@ -40,6 +47,9 @@ ul {
 .portfolio {
     color: var(--accent-color);
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 .portfolio:hover,
 .portfolio:focus {
@@ -48,6 +58,9 @@ ul {
 .contacts {
     color: var(--primary-color);
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 .contacts:hover,
 .contacts:focus {
@@ -57,6 +70,9 @@ ul {
 .mail {
     color: var(--accent-color);
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 .mail:hover,
 .mail:focus {
@@ -65,6 +81,9 @@ ul {
 .tel {
     color: var(--secondary-color);
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 .tel:hover,
 .tel:focus {
@@ -81,6 +100,9 @@ ul {
    border-radius: 4px;
    color: var(--primary-color);
    background-color: #F5F4FA;
+   font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
 }
 
 .container {
@@ -93,10 +115,15 @@ ul {
     text-decoration: none;
 }
 .title {
-    color: var(--primary-color);   
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;   
 }
 .text {
     color: var(--secondary-color);
+    font-weight: 400;
+    line-height: 1.87;
 }
 
 /* footer */
@@ -106,6 +133,10 @@ ul {
 .logo-footer {
     color: var(--accent-color);
     text-decoration: none;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 .logo-footer-dot {
     color: var(--white-color);
@@ -113,13 +144,22 @@ ul {
 .maps {
     color: var(--white-color);
     text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 .mailto {
     color:  rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 .tell {
     color:  rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 
 }
