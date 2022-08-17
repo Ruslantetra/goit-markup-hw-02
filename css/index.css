@@ -38,6 +38,7 @@ ul {
 .nav {
     display: flex;
     margin-right: 280px;
+    align-items: center;
     
 }
 .logo {
