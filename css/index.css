@@ -29,16 +29,11 @@ ul {
 /* водин ряд display: flex; */
 /* по вертикали по центру align-items: center; */
 .header {
-    width: 1600PX;
-    margin: 0 auto;
-    padding: 24px 215px 25px 215px;
-    display: flex;
+  
 }
 
 .nav {
-    display: flex;
-    margin-right: 280px;
-    align-items: center;
+   
     
 }
 .logo {
@@ -48,14 +43,14 @@ ul {
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
-    margin-right: 93px;   
+    
 }
 .logo-dot {
     color: var(--accent-color);
 }
 
 .nav-site {
-    display: flex;
+    
     
 }
 
@@ -65,7 +60,7 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
-    margin-right: 50px;
+    
 }
 .studio:hover,
 .studio:focus {
@@ -81,7 +76,7 @@ ul {
    
 }
 .portfolio-margin {
-    margin-right: 50px;
+   
 }
 .portfolio-contacts:hover,
 .portfolio-contacts:focus {
@@ -89,20 +84,20 @@ ul {
 }
 
 .nav-address {
-    display: flex;
+   
 }
 
 .mail {
-    color: var(--accent-color);
+    color: var(--secondary-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
-    margin-right: 50px;
+   
 }
 .mail:hover,
 .mail:focus {
-    color: blue;
+    color:#2196F3;
 }
 
 .tel {
@@ -121,31 +116,19 @@ ul {
 /* section 1 */
 .section-one {
     background-color: var(--header-footer-color);
-    width: 1600px;
-    margin: 0 auto;
-    
-}
-.div-section-one-title{
-    width: 645px;
-   margin: 0 auto;
-   padding-top: 200px;
-   /* padding-bottom: 30px; */
    
     
-    
 }
+
 .section-one-title {
     color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
+   
+    text-transform: uppercase;
 }
-.div-button {
-    width: 216px;
-    margin: 0 auto;
-    padding-bottom: 200px;
-}
+
 .button {
     background-color: var(--accent-color);
     border: none;
@@ -154,20 +137,16 @@ ul {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    padding: 10px 32px;
+    
 }
 /* section 2 */
 .section-two {
-    width: 1600px;
+  
    
 }
-.div-ul-section-two {
-    width: 1170px;
-    margin: 0 auto;
-    
-}
+
 .ul-section-two {
-    display: flex;
+    
 }
  .title {
     color: var(--primary-color);
@@ -179,59 +158,49 @@ ul {
     
 }
 .text {
-    font-weight: 400;
+
     line-height: 1.71;
-    width: 270px;
-    margin-right: 30px;
+   
 }
 /* section 3 */
 .section-three {
-    width: 1600px;
+   
 }
-.div-section-three {
-    width: 1170px;
-    margin: 0 auto;
-    /* padding-bottom: 94px; */
-}
+
 .title-section-three {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    text-align: center;
+    
 }
 .ul-section-three {
-    display: flex;
+   
 }
 .img {
     width: 370px;
     height: 294px;
-    margin-right: 30px;
+    
 }
 /* section 4 */
 .section-four {
     background-color: #F5F4FA;
-    width: 1600px;
+  
 }
 
 .title-section-four {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    text-align: center;
-    padding: 94px 668px 50px 668px;
+    
 }
-.div-section-four {
-    width: 1170px;
-    margin: 0 auto;
-}
+
 .ul-section-four {
-    display: flex;
-    margin-bottom: 94px;
+   
 }
 .li-section-four {
     background-color: var(--white-color);
     width: 270px;
-    margin-right: 30px;
+   
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
@@ -239,24 +208,24 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    text-align: center;
+    
 }
 .text-section-four {
-    font-weight: 400;
+   
     font-size: 16px;
     line-height: 1.18;
-    text-align: center;
+    
 }
 /* footer */
 .footer {
     background-color: var(--header-footer-color);
-    width: 1600px;
+   
 }
 .div-logo-footer {
-    padding: 60px 1240px 0 215px;
+   
 }
 .div-address {
-    padding: 0px 1154px 60px 175px;
+   
 }
 .logo-footer {
     color: var(--accent-color);
@@ -272,7 +241,7 @@ ul {
 }
 .maps {
    color: var(--white-color);
-   font-weight: 400;
+  
     line-height: 1.71;
     text-decoration: none; 
 }
@@ -282,7 +251,7 @@ ul {
 }
 .mailto-tel {
     color: rgba(255, 255, 255, 0.6);
-    font-weight: 400;
+    
     line-height: 1.71;
     text-decoration: none;
 }
