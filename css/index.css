@@ -4,6 +4,8 @@
     --accent-color: #2196F3;
     --white-color: #FFFFFF;
     --header-footer-color: #2F303A;
+    --black-color: #000000;
+    --grey-color: #F5F4FA;
 
     --main-font: 'Roboto', sans-serif;
     --secondary-font:  'Raleway', sans-serif;
@@ -28,30 +30,16 @@ ul {
 /* header */
 /* водин ряд display: flex; */
 /* по вертикали по центру align-items: center; */
-.header {
-  
-}
-
-.nav {
-   
-    
-}
 .logo {
-    color: #000000;
+    color: var(--accent-color);
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
 .logo-dot {
-    color: var(--accent-color);
-}
-
-.nav-site {
-    
-    
+    color: var(--black-color);
 }
 
 .studio {
@@ -59,8 +47,7 @@ ul {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
 .studio:hover,
 .studio:focus {
@@ -75,16 +62,10 @@ ul {
     text-decoration: none;
    
 }
-.portfolio-margin {
-   
-}
+
 .portfolio-contacts:hover,
 .portfolio-contacts:focus {
     color:#2196F3;
-}
-
-.nav-address {
-   
 }
 
 .mail {
@@ -115,9 +96,7 @@ ul {
 /* main */
 /* section 1 */
 .section-one {
-    background-color: var(--header-footer-color);
-   
-    
+    background-color: var(--header-footer-color);    
 }
 
 .section-one-title {
@@ -125,7 +104,6 @@ ul {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-   
     text-transform: uppercase;
 }
 
@@ -136,97 +114,70 @@ ul {
     color: var(--white-color);
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.87;
-    
+    line-height: 1.87;  
 }
+.button:hover,
+.button:focus {
+    background-color: var(--white-color);
+    color: #188ce8;
+} 
 /* section 2 */
-.section-two {
-  
-   
-}
 
-.ul-section-two {
-    
-}
  .title {
     color: var(--primary-color);
 }
 .title-section-two {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14;
-    
+    line-height: 1.14;   
 }
 .text {
-
     line-height: 1.71;
    
 }
 /* section 3 */
-.section-three {
-   
-}
 
 .title-section-three {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.16;
-    
+    line-height: 1.16;   
 }
-.ul-section-three {
-   
-}
+
 .img {
     width: 370px;
-    height: 294px;
-    
+    height: 294px;   
 }
 /* section 4 */
 .section-four {
-    background-color: #F5F4FA;
-  
+    background-color: var(--grey-color); 
 }
 
 .title-section-four {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.16;
-    
+    line-height: 1.16;   
 }
 
-.ul-section-four {
-   
-}
 .li-section-four {
     background-color: var(--white-color);
     width: 270px;
-   
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 .title-four {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.18;
-    
+    line-height: 1.18;   
 }
 .text-section-four {
-   
     font-size: 16px;
-    line-height: 1.18;
-    
+    line-height: 1.18;   
 }
 /* footer */
 .footer {
-    background-color: var(--header-footer-color);
-   
+    background-color: var(--header-footer-color);  
 }
-.div-logo-footer {
-   
-}
-.div-address {
-   
-}
+
 .logo-footer {
     color: var(--accent-color);
     font-family: var(--secondary-font);
@@ -238,6 +189,10 @@ ul {
 }
 .logo-dot-footer {
     color: var(--white-color);
+}
+
+.address {
+    font-style: normal;
 }
 .maps {
    color: var(--white-color);

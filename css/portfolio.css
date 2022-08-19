@@ -3,6 +3,7 @@
     --secondary-color: #757575;
     --accent-color: #2196F3;
     --white-color: #FFFFFF;
+    --black-color: #000000;
 
     --main-font: 'Roboto', sans-serif;
     --secondary-font:  'Raleway', sans-serif;
@@ -26,28 +27,21 @@ ul {
 }
 /* header */
 .header {
-    border-bottom: 1px solid #ECECEC;
-   
+    border-bottom: 1px solid #ECECEC;  
 }
-.nav {
-   
-}
+
 .logo {
     color: var(--accent-color);
     text-decoration: none;
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19;
-   
+    line-height: 1.19;   
 }
 .logo-dot {
-    color: #000000;
+    color: var(--black-color);
 }
-.nav-site {
-  
-    
-}
+
 .studio {
     color: var(--primary-color);
     text-decoration: none;
@@ -85,9 +79,7 @@ ul {
     color: #2196F3;
 }
 
-.nav-address {
-   
-}
+
 .mail {
     color: var(--secondary-color);
     text-decoration: none;
@@ -112,22 +104,6 @@ ul {
     color: #2196F3;
 }
 /* main */
-.section {
- 
-}
-
-.ul-button {
-  
-}
-.button.btn {
-    background-color: var(--accent-color);
-    color: var(--white-color);
-   
-}
-.button.veb {
-    
-}
-
 .button {
    border: none;
    border-radius: 4px;
@@ -135,25 +111,20 @@ ul {
    background-color: #F5F4FA;
    font-weight: 500;
     font-size: 16px;
-    line-height: 1.62;
-   
+    line-height: 1.62;   
+}
+.button:hover,
+.button:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
 }
 
-
-.ul-container {
-   
-}
 /* перенос на новый ряд flex-wrap: wrap; */
 .container {
     border: 1px solid #EEEEEE;
-    width: 370px;
-   
+    width: 370px;  
 }
 
-
-.container:nth-child(3n + 3) {
-    
-}
 .link {
     text-decoration: none;
 }
@@ -175,8 +146,7 @@ ul {
 
 /* footer */
 .footer {
-    background-color: #2F303A;
-    
+    background-color: #2F303A;   
 }
 
 .logo-footer {
@@ -191,6 +161,9 @@ ul {
     color: var(--white-color);
 }
 
+.address {
+    font-style: normal;
+}
 .maps {
     color: var(--white-color);
     text-decoration: none;
